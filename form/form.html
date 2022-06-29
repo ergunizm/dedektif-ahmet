@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header class="clearfix">    
+        <ul>
+            <div>
+                <li id="main-title">Dedektif Ahmet</li>
+            </div>
+            <div id="main-info">
+                <li><a href="tel:+905365935454">+905365935454<br>Telefon</a></li>
+                <li><a href="mailto:ergun1401@hotmail.com">ergun1401@gmail.com<br>E-Posta</a></li>
+            </div>
+        </ul>
+    </header>
+    <div class="navbar">
+        <nav class="clearfix">
+            <ul>
+                <li><a href="../index.html">Anasayfa</a></li>
+                <li><a href="../hizmetler/hizmetler.html">Hizmetlerimiz</a></li>
+                <li><a href="../hakkinda/hakkinda.html">Biz Kimiz</a></li>
+                <li><a href="../iletisim/iletisim.html">İletişim</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="h-title"><h1>Danışmanlık isteğinde bulunun</h1></div>
+    <div id="h-desc"><p>Aşağıdaki alanları doldurup gönderdikten sonra dedektifin sizle iletişime geçmesini bekleyin. </p></div>
+    <div class="f-sec">
+        <form name="form" action="form.html" method="POST">
+            <div class="f-title">
+                <h3>Kişisel bilgiler</h3>
+            </div>
+            <div class="f-el">
+                <div id="f-el-name">
+                    <input required type="text" name="name" placeholder="Ad ve soyad">
+                </div>
+                <div id="f-el-mail">
+                    <input type="text" name="email" placeholder="E-posta adresi veya telefon numarası">
+                </div>
+                
+            </div>
+            <div class="f-title">
+                <h3>Konu hakkında bilgiler</h3>
+            </div>
+            <div class="f-el">
+                <div id="f-el-box">
+                    <div id="f-el-lbl">
+                        <label for="cmbox">Danışmak istediğiniz durum</label>
+                    </div>
+                    <div id="f-el-select">
+                        <select required name="o-combobox" id="cmbox">
+                            <option style="color: rgb(110, 110, 110);" value="">-Konu seçiniz-</option>
+                            <option value="">Evlilik öncesi araştırma</option>
+                            <option value="">Geçmişe dönük kayıtlar</option>
+                            <option value="">Kişi takibi</option>
+                            <option value="">Varlık sorgulama</option>
+                            <option value="">Çocukların araştırılması</option>
+                            <option value="">Adres tespiti</option>
+                            <option value="">Boşanma davaları</option>
+                            <option value="">Telefondan lokasyon bulma</option>
+                            <option value="">Kayıp kişi bulma</option>
+                            <option value="">Velayet davaları</option>
+                            <option value="">Firma araştırması</option>
+                            <option value="">Çalışan araştırması</option>
+                            <option value="">Haciz ve icra takibi</option>
+                            <option value="">Hukuki tavsiye</option>
+                            <option value="">Dolandırıcılığa karşı soruşturmalar</option>
+                        </select>
+                    </div> 
+                </div>
+                <div id="f-el-area">
+                    <textarea placeholder="Konunun detayları" name="detay" id="d-textarea" cols="40" rows="4"></textarea>
+                </div>
+            </div>
+            <div id="f-desc"><input type="checkbox" name="chckbx" id="chckbx" required><label for="chckbx">Bu form aracılığıyla gönderilen verilerin iletişim esnasında kullanılmasını kabul ediyorum.</p></div>
+            <div class="f-submit">
+                <input type="submit" value="Gönder">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

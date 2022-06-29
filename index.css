@@ -1,0 +1,258 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.navbar{
+    background-color: #39b54a;
+    position:sticky;
+    top: 0;
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    flex-basis: auto;
+    align-items: center;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 2% 15% 2% 0%;
+    text-align: center;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+header ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+header ul li{
+    float: left;
+    list-style: none;
+    text-align: center;
+    padding: 2px;
+}
+
+#main-title{
+    margin-left: 0px;
+    margin-right: 10%;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+#main-info li{
+    float: right;
+    margin-right: 4%;
+}
+
+.primary{
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.primary #first{
+    font-size: 300%;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+.primary #first #custom{
+    color: #39b54a;
+}
+
+.primary #second{
+    font-size: 200%;
+    margin-top: 0;
+    margin-bottom: 5%;
+}
+
+.primary #third-first{
+    text-decoration: none;
+    background-color: #39b54a;
+    color: black;
+    padding: 2% 4% 2% 4%;
+    border-radius: 3px;
+    font-weight: bold;
+    margin-right: 3%;
+    margin-left: 1%;
+}
+.primary #third-first:hover{
+    background-color: white;
+    color: black;
+}
+.primary #third-second{
+    align-items: center;
+    text-decoration: none;
+    color: #39b54a;
+    cursor: pointer;
+}
+.primary #third-second:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.hizmetler{
+    margin-left: 10%;
+    margin-right: 5%;
+}
+.hizmetler #h-title{
+    font-size: 300%;
+    font-weight: bold;
+    color: #39b54a;
+    margin-bottom: 7%;
+    margin-top: 5%;
+}
+.hizmetler #h-first{
+    text-align: center;
+    width: 400px;
+    display: inline-block;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    margin-left: 100px;
+}
+.hizmetler #h-second{
+    text-align: center;
+    width: 400px;
+    display: inline-block;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    margin-left: 100px;
+}
+.hizmetler #h-first a:hover{
+    color: #39b54a;
+}
+.hizmetler #h-second a:hover{
+    color: #39b54a;
+}
+
+.dropbtn {
+    background-color: #39b54a;
+    color: white;
+    padding: 20px 100px 20px 100px;
+    font-size: 100%;
+    border: none;
+    border-radius: 5px;
+}
+.dropbtn:hover{
+    cursor: pointer;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: black;
+    width: 400px;
+    z-index: 1;
+}
+.dropdown-content a{
+    color: white;
+    padding: 5% 5%;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content p{
+    color: white;
+    display: block;
+}
+
+.dropcheck{
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.dropcheck:checked ~ .dropdown-content {
+  display: block;
+}
+
+.dropcheck:checked + .dropbtn {
+    background-color: black;
+    color: #39b54a;
+}
+.hizmetler #h-foot{
+    display: flex;
+    justify-content:space-around;
+    flex-basis: auto;
+}
+.hizmetler #h-foot a{
+    text-align: center;
+    padding: 2% 4% 2% 4%;
+    text-decoration: none;
+    color: black;
+    background-color: #39b54a;
+    border-radius: 3px;
+}
+.hizmetler #h-foot:hover a{
+    color: white;
+}
+
+
+
+.neden-biz{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+.neden-biz #n-title{
+    font-size: 300%;
+    font-weight: bold;
+    color: #39b54a;
+}
+.neden-biz .n-content{
+    display: flex;
+    justify-content:space-around;
+    flex-basis: auto;
+}
+.neden-biz .nmf{
+    margin-right: 10%;
+}
+.neden-biz .n-content h3{
+    color: #39b54a;
+    text-align: center;
+}
+.neden-biz .n-content p{
+    text-align: center;
+}
+
+footer ul{
+    align-items: center;
+}
+
+footer ul a li{
+    width: 100px;
+    float: left;
+    list-style: none;
+    text-align: center;
+    padding: 12px 20px 12px 20px;
+    border-radius: 3px;
+    border: none;
+    background-color: black;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li:hover{
+    background-color: white;
+}
+
+footer ul a li:hover{
+    color: black;
+}
+
+footer ul{
+    display: flex;
+    justify-content:space-around;
+    flex-basis: auto;
+}
